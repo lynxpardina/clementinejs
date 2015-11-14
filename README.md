@@ -6,6 +6,6 @@ I wanted to reuse code in different parts following the  DRY (Don't Repeat Yours
 
 The function implemented as plugin is ajax-functions-jquery.js inside app/common and is used by clickController.client-jquery.js and userController.client-jquery.js inside /app/controllers
 
-Hope this is useful to anyone trying apply DRY in jQuery.
+Hope this is useful to anyone trying to apply DRY in jQuery.
 
 More information on jQuery plugins at [http://learn.jquery.com/plugins/basic-plugin-creation/](http://learn.jquery.com/plugins/basic-plugin-creation/)
