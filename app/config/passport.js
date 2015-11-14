@@ -35,7 +35,7 @@ module.exports = function (passport) {
 					return done(null, user);
 				} else {
 					var newUser = new User();
-console.log("añadiendo nuevo usuario -- passport");
+// console.log("añadiendo nuevo usuario -- passport");
 					newUser.github.id = profile.id;
 					newUser.github.username = profile.username;
 					newUser.github.displayName = profile.displayName;
@@ -47,7 +47,7 @@ console.log("añadiendo nuevo usuario -- passport");
 							console.log("Error guardando usuario nuevo -- passport");
 							throw err;
 						}
-console.log("usuario guardado, en teoria -- passport ", newUser);
+// console.log("usuario guardado, en teoria -- passport ", newUser);
 						return done(null, newUser);
 					});
 				}
